@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import App from './App.jsx'
 import Err from './Components/Err.jsx';
+import 'animate.css';
 
 
 const router = createBrowserRouter([
