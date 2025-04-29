@@ -2,8 +2,8 @@ import React from "react";
 
 const Fq = () => {
   return (
-    <section className=" mt-10 rounded-lg py-3 " data-aos="fade-down">
-      <h1 className=" text-3xl font-bold text-center animate__animated animate__slideInDown">
+    <section className=" mt-14 rounded-lg py-3 " data-aos="fade-down">
+      <h1 className=" text-3xl lg:text-4xl font-bold text-center animate__animated animate__slideInDown">
         Frequently asked questions
       </h1>
       <div className="w-11/12 mx-auto mt-6 ">

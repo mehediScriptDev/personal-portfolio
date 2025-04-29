@@ -10,8 +10,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Education from './Components/Education'
 import Fq from './Components/Fq'
+import Contact from './Components/Contact'
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+  
   
 
 useEffect(() => {
@@ -28,6 +31,7 @@ useEffect(() => {
       <Projects></Projects>
       <Education></Education>
       <Fq></Fq>
+      <Contact></Contact>
       </section>
     </>
   )

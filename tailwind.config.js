@@ -9,7 +9,8 @@ export default {
       colors: {
         highlight: '#E94560',
         mainbg: '#1A1A2E',
-        littlebg: '#0F3460'
+        littlebg: '#0F3460',
+        littleborder: '#0F3479'
       },
       fontFamily: {
         heading: ['Montserrat', 'sans-serif'],

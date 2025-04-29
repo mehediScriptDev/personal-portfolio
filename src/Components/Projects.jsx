@@ -8,8 +8,8 @@ import 'animate.css';
 const Projects = () => {
   return (
     <section className="min-h-screen mt-10 " data-aos="fade-up">
-      <h1 className="text-left text-3xl font-bold animate__animated animate__slideInDown">Projects</h1>
-      <p className="text-highlight font-bold">All</p>
+      <h1 className="text-left text-3xl lg:text-4xl font-bold pb-6 animate__animated animate__slideInDown">Projects</h1>
+      
       <section className="grid md:grid-cols-3 grid-cols-1 justify-center mt-4 mx-auto w-11/12 gap-y-6 items-center gap-3">
         <div className="col-span-1">
           <div className="bg-[#141927]  text-white rounded-2xl overflow-hidden shadow-lg max-w-sm">
