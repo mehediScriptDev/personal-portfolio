@@ -8,6 +8,8 @@ import {
 import App from './App.jsx'
 import Err from './Components/Err.jsx';
 import 'animate.css';
+import Skills from './Components/Skills.jsx';
+import Projects from './Components/Projects.jsx';
 
 
 const router = createBrowserRouter([
@@ -16,6 +18,7 @@ const router = createBrowserRouter([
     element: <App></App>,
     errorElement: <Err></Err>
   },
+ 
 ]);
 
 createRoot(document.getElementById('root')).render(

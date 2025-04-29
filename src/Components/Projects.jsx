@@ -7,7 +7,7 @@ import 'animate.css';
 
 const Projects = () => {
   return (
-    <section className="min-h-screen mt-10">
+    <section className="min-h-screen mt-10 " data-aos="fade-up">
       <h1 className="text-left text-3xl font-bold animate__animated animate__slideInDown">Projects</h1>
       <p className="text-highlight font-bold">All</p>
       <section className="grid md:grid-cols-3 grid-cols-1 justify-center mt-4 mx-auto w-11/12 gap-y-6 items-center gap-3">
@@ -17,7 +17,7 @@ const Projects = () => {
               <img
                 src={profie}
                 alt="TaskFlow preview"
-                className="w-full object-cover animate__animated animate__zoomIn transition-all duration-500"
+                className="w-full object-cover "
               />
             </div>
             <div className="p-6 space-y-4">

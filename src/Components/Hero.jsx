@@ -8,9 +8,8 @@ import '../index.css'
 const Hero = () => {
   return (
     <section className="grid md:grid-cols-10 min-h-screen grid-cols-1 gap-2  justify-center font-body items-center">
-      <div className="col-span-6 max-w-2xl">
+      <div className="col-span-6 max-w-2xl" data-aos ="fade-right">
         <h1 className="md:text-5xl text-3xl text-gray-300 font-semibold">I'm Mehedi,</h1>
-        <p></p>
         <p className="text-highlight py-3 font-bold text-2xl lg:text-2xl md:text-3xl animate__animated animate__fadeInDown">A Junior Frontend Developer</p>
         <p className=" md:text-[15px] py-4 text-gray-300">I currently pursuing a Diploma in CST at Tangail Polytechnic Institute. Coding is my oxygen!  I build robust web applications using MongoDB, Express, React, and Node.js, and I’m always eager to explore new technologies. My GitHub is my gym, where I flex my skills daily, building not just projects but also my mindset and wealth.</p>
       
@@ -24,7 +23,7 @@ const Hero = () => {
       </div>
       </div>
       </div>
-      <div className="col-span-1 md:col-span-4 flex justify-center items-center animate__animated animate__fadeIn animate__delay-1s">
+      <div className="col-span-1 md:col-span-4 flex justify-center items-center" data-aos="fade-left">
         <img
           className="lg:w-2/4 w-2/4 mx-auto rounded-xl hover:border-white p-1 border-2 border-highlight shadow-2xl shadow-slate-900"
           src={profile}

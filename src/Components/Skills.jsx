@@ -15,7 +15,7 @@ import { DiResponsive } from "react-icons/di";
 
 const Skills = () => {
   return (
-    <section className="min-h-screen mt-10">
+    <section className="min-h-screen mt-10" data-aos="fade-up">
       <h1 className="text-left text-3xl font-bold">Skills</h1>
       <p className="text-highlight font-bold">2024-2025</p>
       <div className="grid grid-cols-1 md:grid-cols-12 justify-center items-center gap-y-3 gap-3">
