@@ -1,17 +1,17 @@
-import React from "react";
+import { FaLongArrowAltUp } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <section className="w-11/12 mx-auto bg-littlebg">
-      <footer className="footer sm:footer-horizontal  text-neutral-content items-center p-4">
-        <aside className="grid-flow-col items-center">
+      <footer className="footer flex justify-between sm:footer-horizontal  text-neutral-content items-center p-4">
+        <div className=" items-center">
           
           <p>Copyright © {new Date().getFullYear()} - All right reserved by Mehedi</p>
-        </aside>
-        <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        </div>
+        <div className="">
          
-         
-        </nav>
+         <a className="bg-littleborder rounded-full p-2 border-2 border-gray-600 hover:text-white hover:bg-highlight" href="#hero"><FaLongArrowAltUp></FaLongArrowAltUp></a>
+        </div>
       </footer>
     </section>
   );
