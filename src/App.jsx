@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Education from './Components/Education'
 
 function App() {
   
@@ -24,6 +25,7 @@ useEffect(() => {
       <Hero></Hero>
       <Skills></Skills>
       <Projects></Projects>
+      <Education></Education>
       </section>
     </>
   )
