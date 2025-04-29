@@ -20,13 +20,13 @@ const Contact = () => {
         }
     }
   return (
-    <section className="min-h-screen mt-16">
+    <section className="min-h-screen mt-16  mb-5">
       <h1 className="text-3xl lg:text-5xl font-bold text-center animate__animated animate__slideInDown">
         Contact
       </h1>
       <div className="grid md:grid-cols-12 grid-cols-1 justify-center gap-y-10 mx-auto w-11/12 mt-10">
         <div className="col-span-6">
-          <p className="text-2xl font-bold py-3">Contact Informations</p>
+          <p className="text-2xl font-bold ">Contact Informations</p>
           <p className="text-gray-400 py-3">
             Feel free to reach out for collaboration opportunities or just to
             say hello!

@@ -12,6 +12,7 @@ import Education from './Components/Education'
 import Fq from './Components/Fq'
 import Contact from './Components/Contact'
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Components/Footer'
 
 function App() {
   
@@ -32,6 +33,7 @@ useEffect(() => {
       <Education></Education>
       <Fq></Fq>
       <Contact></Contact>
+      <Footer></Footer>
       </section>
     </>
   )
