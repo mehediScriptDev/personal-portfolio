@@ -26,8 +26,8 @@ useEffect(() => {
       <Hero></Hero>
       <Skills></Skills>
       <Projects></Projects>
-      <Fq></Fq>
       <Education></Education>
+      <Fq></Fq>
       </section>
     </>
   )
