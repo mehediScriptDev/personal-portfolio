@@ -13,6 +13,7 @@
     "@react-icons/all-files": "^4.1.0",
     "@tailwindcss/vite": "^4.1.4",
     "animate.css": "^4.1.1",
+    "framer-motion": "^12.9.2",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.0",
     "react": "^19.0.0",
