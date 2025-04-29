@@ -1,4 +1,5 @@
 import './App.css'
+import './index.css'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Skills from './Components/Skills'

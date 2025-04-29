@@ -7,7 +7,7 @@ const Header = () => {
         </div>
         
         <div className="navbar-end">
-          <a className="btn bg-highlight text-white  text-[10px] md:text-[15px] rounded-full">Download Resume</a>
+          <a href="/Err.pdf" className="btn bg-highlight text-white  text-[10px] md:text-[15px] rounded-full">Download Resume</a>
         </div>
       </div>
     </div>
