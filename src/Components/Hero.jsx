@@ -8,11 +8,11 @@ import '../index.css'
 const Hero = () => {
   return (
     <section className="grid md:grid-cols-10 min-h-screen grid-cols-1 gap-2  justify-center font-body items-center">
-      <div className="col-span-6 max-w-2xl ">
-        <h1 className="text-5xl font-semibold">Mehedi</h1>
+      <div className="col-span-6 max-w-2xl">
+        <h1 className="md:text-5xl text-3xl font-semibold">I'm Mehedi,</h1>
         <p></p>
         <p className="text-highlight py-3 font-bold text-2xl lg:text-2xl md:text-3xl animate__animated animate__fadeInDown">A Junior Frontend Developer</p>
-        <p className=" md:text-[20px] text-gray-300">I currently pursuing a Diploma in CST at Tangail Polytechnic Institute. Coding is my oxygen!  I build robust web applications using MongoDB, Express, React, and Node.js, and I’m always eager to explore new technologies. My GitHub is my gym, where I flex my skills daily, building not just projects but also my mindset and wealth.</p>
+        <p className=" md:text-[15px] py-4 text-gray-300">I currently pursuing a Diploma in CST at Tangail Polytechnic Institute. Coding is my oxygen!  I build robust web applications using MongoDB, Express, React, and Node.js, and I’m always eager to explore new technologies. My GitHub is my gym, where I flex my skills daily, building not just projects but also my mindset and wealth.</p>
       
       <div className="mt-6">
         <p className="text-gray-400">FIND ME ON</p>
@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
       <div className="col-span-1 md:col-span-4 flex justify-center items-center">
         <img
-          className="rounded-full  w-[16rem] h-[16rem] md:w-80 md:h-80  object-cover border-highlight border-4   "
+          className="lg:w-2/4 w-2/4 mx-auto rounded-xl p-1 border-2 border-highlight shadow-2xl shadow-slate-900"
           src={profile}
           alt="mehedi"
         />
