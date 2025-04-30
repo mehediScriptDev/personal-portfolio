@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="bg-mainbg font-heading">
+    <div id="header" className="bg-mainbg font-heading">
       <div className="navbar shadow-sm">
         <div className="navbar-start">
           <p className="font-heading text-3xl font-bold">Mehedi<span className="text-highlight">.</span></p>

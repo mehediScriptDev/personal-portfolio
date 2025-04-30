@@ -2,7 +2,7 @@ import React from "react";
 
 const Fq = () => {
   return (
-    <section className=" mt-14 rounded-lg py-3 " data-aos="fade-down">
+    <section className=" mt-14 min-h-[70vh] rounded-lg py-3 " data-aos="fade-down">
       <h1 className=" text-3xl lg:text-4xl font-bold text-center animate__animated animate__slideInDown">
         Frequently asked questions
       </h1>

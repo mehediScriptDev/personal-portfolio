@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
         <div className="">
          
-         <a className="bg-littleborder rounded-full p-2 border-2 border-gray-600 hover:text-white hover:bg-highlight" href="#hero"><FaLongArrowAltUp></FaLongArrowAltUp></a>
+         <a className="bg-littleborder rounded-full p-2 border-2 border-gray-600 hover:text-white hover:bg-highlight" href="#header"><FaLongArrowAltUp></FaLongArrowAltUp></a>
         </div>
       </footer>
     </section>

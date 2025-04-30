@@ -7,7 +7,7 @@ import '../index.css'
 
 const Hero = () => {
   return (
-    <section id="hero" className="grid md:grid-cols-10 min-h-screen grid-cols-1 gap-2  justify-center font-body items-center">
+    <section id="hero" className="grid md:grid-cols-10 mt-10 lg:min-h-screen grid-cols-1 gap-2  justify-center font-body items-center">
       <div className="col-span-6 max-w-2xl" data-aos ="fade-right">
         <h1 className="md:text-5xl text-3xl text-gray-300 font-semibold">I'm Mehedi,</h1>
         <p className="text-highlight py-3 font-bold text-2xl lg:text-2xl md:text-3xl animate__animated animate__fadeInDown">A Junior Frontend Developer</p>
@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
       </div>
       </div>
-      <div className="col-span-1 md:col-span-4 flex justify-center items-center" data-aos="fade-left">
+      <div className="col-span-1 md:col-span-4 flex mt-10 justify-center items-center" data-aos="fade-left">
         <img
           className="lg:w-2/4 w-2/4 mx-auto rounded-xl hover:border-white p-1 border-2 border-highlight shadow-2xl shadow-slate-900"
           src={profile}

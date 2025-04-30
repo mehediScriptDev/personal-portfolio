@@ -20,14 +20,14 @@ const Contact = () => {
         }
     }
   return (
-    <section className="min-h-screen mt-16  mb-5">
-      <h1 className="text-3xl lg:text-5xl font-bold text-center animate__animated animate__slideInDown">
+    <section className="min-h-screen mt-16  mb-5" data-aos="fade-end">
+      <h1 className="text-3xl lg:text-4xl font-bold text-center animate__animated animate__slideInDown">
         Contact
       </h1>
-      <div className="grid md:grid-cols-12 grid-cols-1 justify-center gap-y-10 mx-auto w-11/12 mt-10">
+      <div className="grid lg:grid-cols-12 grid-cols-1 justify-center gap-y-10 mx-auto w-11/12 mt-10">
         <div className="col-span-6">
           <p className="text-2xl font-bold ">Contact Informations</p>
-          <p className="text-gray-400 py-3">
+          <p className="text-gray-400 py-3 pr-6">
             Feel free to reach out for collaboration opportunities or just to
             say hello!
           </p>
@@ -102,7 +102,7 @@ const Contact = () => {
               Name:{" "}
               <input
                 type="text"
-                className="bg-littlebg rounded-md py-2 w-full border-2 border-littleborder"
+                className="bg-littlebg rounded-md md:py-2 py-1 w-full border-2 border-littleborder"
                 required
                 name="name"
                 id=""
@@ -113,7 +113,7 @@ const Contact = () => {
               Email:
               <input
                 type="email"
-                className="border-2 py-2 rounded-md bg-littlebg w-full border-littleborder"
+                className="border-2 md:py-2 py-1 rounded-md bg-littlebg w-full border-littleborder"
                 required
                 name="email"
                 id=""
@@ -125,7 +125,7 @@ const Contact = () => {
               Subject:
               <input
                 type="text"
-                className="border-2 rounded-md bg-littlebg w-full border-littleborder py-2"
+                className="border-2 rounded-md bg-littlebg w-full border-littleborder md:py-2 py-1"
                 name="subject"
                 id=""
               />
@@ -137,6 +137,7 @@ const Contact = () => {
               <textarea
                 className="border-2 py-9 bg-littlebg w-full h-full border-littleborder"
                 name=""
+                required
                 id=""
               ></textarea>
             </label>
