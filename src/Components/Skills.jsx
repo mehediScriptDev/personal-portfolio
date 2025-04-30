@@ -4,11 +4,9 @@ import {
   GrGithub,
   GrHtml5,
   GrJs,
-  GrNode,
   GrReactjs,
 } from "react-icons/gr";
 import { RiTailwindCssLine } from "react-icons/ri";
-import { SiNetlify } from "react-icons/si";
 import { BiLogoFirebase, BiLogoMongodb } from "react-icons/bi";
 import { IoIosDoneAll } from "react-icons/io";
 import { DiResponsive } from "react-icons/di";
