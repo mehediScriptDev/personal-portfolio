@@ -15,10 +15,10 @@ import { DiResponsive } from "react-icons/di";
 
 const Skills = () => {
   return (
-    <section className="lg:min-h-screen mt-10" data-aos="fade-up">
+    <section className="xl:min-h-screen mt-11" data-aos="fade-up">
       <h1 className="text-left text-3xl font-bold">Skills</h1>
       <p className="text-highlight font-bold">2024-2025</p>
-      <div className="grid grid-cols-1 md:grid-cols-12 justify-center items-center gap-y-3 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-12  justify-center items-center gap-y-3 gap-3">
         <div className="w-11/12 mx-auto border-2 border-highlight mt-3 col-span-6">
           <div className="flex flex-col px-4 py-2 gap-y-2 border-gray-400 border-2 mx-5 my-3">
             <div className="flex justify-between ">

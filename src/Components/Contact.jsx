@@ -20,7 +20,7 @@ const Contact = () => {
         }
     }
   return (
-    <section className="min-h-screen mt-16  mb-5" data-aos="fade-end">
+    <section className="xl:min-h-screen mt-16  mb-5" data-aos="fade-end">
       <h1 className="text-3xl lg:text-4xl font-bold text-center animate__animated animate__slideInDown">
         Contact
       </h1>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <section className="lg:min-h-screen  mt-11" data-aos="fade-end">
+    <section className="xl:min-h-screen  mt-11" data-aos="fade-end">
       <h1 className=" text-3xl lg:text-4xl font-bold  animate__animated animate__slideInDown">
         Education
       </h1>

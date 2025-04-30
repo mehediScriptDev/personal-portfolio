@@ -7,10 +7,10 @@ import 'animate.css';
 
 const Projects = () => {
   return (
-    <section className="lg:min-h-screen mt-14 pb-8" data-aos="fade-up">
+    <section className="xl:min-h-screen mt-14 pb-8" data-aos="fade-up">
       <h1 className="text-left text-3xl lg:text-4xl font-bold pb-3 animate__animated animate__slideInDown">Projects</h1>
       
-      <section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center mt-4 mx-auto w-11/12 gap-y-6 items-center gap-3">
+      <section className="grid lg:grid-cols-2 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center mt-4 mx-auto w-11/12 gap-y-6 items-center gap-3 flex-wrap">
         <div className="col-span-1">
           <div className="bg-[#141927]  text-white rounded-2xl overflow-hidden shadow-lg max-w-sm">
             <div className="relative overflow-hidden w-full h-60">

@@ -7,7 +7,7 @@ import '../index.css'
 
 const Hero = () => {
   return (
-    <section id="hero" className="grid md:grid-cols-10 mt-10 lg:min-h-screen grid-cols-1 gap-2  justify-center font-body items-center">
+    <section className="grid md:grid-cols-10 mt-10 xl:min-h-screen grid-cols-1 gap-2  justify-center font-body items-center">
       <div className="col-span-6 max-w-2xl" data-aos ="fade-right">
         <h1 className="md:text-5xl text-3xl text-gray-300 font-semibold">I'm Mehedi,</h1>
         <p className="text-highlight py-3 font-bold text-2xl lg:text-2xl md:text-3xl animate__animated animate__fadeInDown">A Junior Frontend Developer</p>
