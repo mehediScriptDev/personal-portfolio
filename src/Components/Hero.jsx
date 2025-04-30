@@ -1,36 +1,47 @@
 import React from "react";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 import profile from "../images/profile.jpg";
 import { FaFacebook, FaGithub, FaLinkedin, FaX } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import "animate.css";
 import "../index.css";
+import ShiningText from 'shiny-text';
+
+
 
 const Hero = () => {
   return (
-    <section className="grid md:grid-cols-10 mt-10 md:mt-0 lg:mt-0 xl:min-h-screen grid-cols-1 gap-2  justify-center font-body items-center">
-      <div className="col-span-6 max-w-2xl" data-aos="fade-right">
-        <h1 className="md:text-5xl text-3xl text-gray-300 font-semibold">
+    <section className="grid md:grid-cols-10 mt-10 md:mt-0 xl:mt-0 lg:min-h-screen sm:min-h-screen xl:min-h-screen grid-cols-1 gap-2  justify-center font-body items-center">
+      <div className="col-span-6 max-w-3xl w-full" data-aos="fade-right">
+        <h1 className="md:text-5xl text-3xl pb-2 space-y-2 text-gray-300 font-semibold">
           I'm Mehedi,
         </h1>
         <p className="text-highlight py-3 font-bold text-2xl lg:text-2xl md:text-3xl animate__animated animate__fadeInDown">
-          
           <Typewriter
             options={{
               strings: ["A Junior Frontend Developer"],
               autoStart: true,
               loop: true,
+              delay: 30,
             }}
           />
         </p>
-        <p className=" md:text-[15px] py-4 text-gray-300">
+        <ShiningText duration="2s" textColor="rgba(156, 163, 175, 0.8)" className="md:text-[17px]  py-4 ">
+        I currently pursuing a Diploma in CST at Tangail Polytechnic
+          Institute. Coding is my oxygen! I build responsive web applications
+          using React and Tailwind CSS, and I'm currently learning Node.js and
+          Express to complete the MERN stack and I’m always eager to explore new
+          technologies. My GitHub is my gym, where I flex my skills daily,
+          building not just projects but also my mindset and wealth.
+        </ShiningText>
+        {/* <p className=" md:text-[17px]  py-4 text-gray-300">
           I currently pursuing a Diploma in CST at Tangail Polytechnic
           Institute. Coding is my oxygen! I build responsive web applications
           using React and Tailwind CSS, and I'm currently learning Node.js and
           Express to complete the MERN stack and I’m always eager to explore new
           technologies. My GitHub is my gym, where I flex my skills daily,
           building not just projects but also my mindset and wealth.
-        </p>
+        </p> */}
 
         <div className="mt-6">
           <p className="text-gray-400">FIND ME ON</p>

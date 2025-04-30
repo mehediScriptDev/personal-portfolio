@@ -7,7 +7,7 @@ const Education = () => {
         Education
       </h1>
       <p className="text-highlight font-bold">Completed & Ongoing Studies</p>
-      <div className="mt-9 w-11/12 mx-auto">
+      <div className="mt-14 w-11/12 mx-auto">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
          
           <li>
