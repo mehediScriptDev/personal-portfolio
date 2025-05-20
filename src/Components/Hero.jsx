@@ -6,17 +6,19 @@ import { Link } from "react-router-dom";
 import "animate.css";
 import "../index.css";
 import ShiningText from 'shiny-text';
+import { div } from "framer-motion/client";
 
 
 
 const Hero = () => {
   return (
-    <section className="grid md:grid-cols-10 mt-10 md:mt-0 xl:mt-0 lg:min-h-screen sm:min-h-screen xl:min-h-screen grid-cols-1 gap-2  justify-center font-body items-center">
+    <div className="lg:mt-20 md:mt-14 ">
+      <section className="grid md:grid-cols-10 mt-10  grid-cols-1 gap-2  justify-center font-body items-center">
       <div className="col-span-6 max-w-3xl w-full" data-aos="fade-right">
         <h1 className="md:text-5xl text-3xl pb-2 space-y-2 text-gray-300 font-semibold">
           I'm Mehedi,
         </h1>
-        <p className="text-highlight py-3 font-bold text-2xl lg:text-2xl md:text-3xl animate__animated animate__fadeInDown">
+        <p className="text-highlight py-3 font-bold text-xl lg:text-2xl md:text-3xl animate__animated animate__fadeInDown">
           <Typewriter
             options={{
               strings: ["A Junior Frontend Developer"],
@@ -26,7 +28,7 @@ const Hero = () => {
             }}
           />
         </p>
-        <ShiningText duration="2s" textColor="rgba(156, 163, 175, 0.8)" className="md:text-[17px]  py-4 ">
+        <ShiningText duration="2s" textColor="rgba(156, 163, 175, 0.8)" className="md:text-[17px] text-xs  py-4 ">
         I currently pursuing a Diploma in CST at Tangail Polytechnic
           Institute. Coding is my oxygen! I build responsive web applications
           using React and Tailwind CSS, and I'm currently learning Node.js and
@@ -88,6 +90,7 @@ const Hero = () => {
         />
       </div>
     </section>
+    </div>
   );
 };
 
